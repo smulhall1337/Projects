@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=speed\ id
+comment0.target=Printer(int,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Printer\r\n
+comment1.params=doc
+comment1.target=void\ add(Doc)
+comment1.text=Add\ a\ document\ to\ this\ printer's\ queue
+comment2.params=
+comment2.target=void\ print()
+comment2.text=\ \r\n\ Print\ several\ blocks,\ if\ necessary,\ determined\ by\ this\ printer's\ speed.\r\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=@return\ the\ number\ of\ documents\ in\ this\ Printer's\ queue
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=Include\ the\ id,\ speed,\ and\ number\ of\ docs\ in\ the\ queue
+numComments=5

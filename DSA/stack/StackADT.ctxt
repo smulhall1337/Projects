@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=java.lang.Object\ push(java.lang.Object)
+comment0.text=\r\n\ puts\ a\ value\ on\ top\ of\ the\ stack\r\n\ @return\ the\ values\ "pushed"\r\n
+comment1.params=
+comment1.target=java.lang.Object\ pop()
+comment1.text=\r\n\ removes\ and\ returns\ the\ top\ value\ of\ the\ stack\r\n\ Pre\:\ The\ stack\ is\ not\ empty\ (duh)\r\n\ @returns\ the\ top\ value\ that\ is\ removed\r\n
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=\r\n\ return\ the\ value\ of\ the\ top\ element\ of\ the\ stack\r\n\ @return\ the\ top\ value\ of\ the\ stack\r\n\ @pre\:\ the\ stack\ is\ not\ empty\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=@return\ true\ only\ if\ this\ Stack\ is\ empty
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=Clear\ this\ stack,\ to\ make\ it\ an\ empty\ stack
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=@return\ This\ Stack\ as\ a\ String
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=@return\ true\ only\ if\ this\ Stack\ is\ equal\ to\ the\ given\ obj
+numComments=7

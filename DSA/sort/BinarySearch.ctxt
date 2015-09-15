@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=list
+comment0.target=BinarySearch(list.List)
+comment1.params=target
+comment1.target=int\ search(java.lang.Comparable)
+comment1.text=\r\n\ @return\ the\ position\ of\ target\ in\ the\ list\ or\ -1\ if\ not\ found\r\n
+comment2.params=target\ start\ end
+comment2.target=int\ binSearch(java.lang.Comparable,\ int,\ int)
+comment2.text=\r\n\ private\ helper\ method\r\n\ @return\r\n
+numComments=3

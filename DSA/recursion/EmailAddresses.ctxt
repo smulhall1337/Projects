@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EmailAddresses()
+comment1.params=alias\ people
+comment1.target=void\ add(java.lang.String,\ java.util.Set)
+comment1.text=Associate\ the\ given\ alias\ with\ the\ given\ people
+comment2.params=alias
+comment2.target=java.util.Set\ expandAlias(java.lang.String)
+comment2.text=\ @return\ All\ the\ email\ addresses\ corresponding\ to\r\n\ the\ given\ alias,\ in\ a\ Set.\r\n
+numComments=3

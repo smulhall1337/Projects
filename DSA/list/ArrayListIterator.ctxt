@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=theList
+comment0.target=ArrayListIterator(List)
+comment0.text=\r\n\ since\ the\ cursor\ sits\ between\ two\ elements,\ it\ will\ be\ hard\ to\ know\ what\ element\ we\ have\ to\ remove\r\n\ \ \ \ A\ \ B\r\n\ \ \ \ \ \ ^\r\n\ \ do\ we\ remove\ A\ or\ B?\r\n\ \ we'll\ set\ up\ this\ field\ to\ remember\ which\ way\ we\ are\ going\ and\ remove\ the\ appropriate\ method\r\n\ \ if\ forward,\ we'll\ remove\ the\ element\ in\ behind\ the\ cursor,\r\n\ \ if\ backwards,\ we'll\ remove\ the\ one\ in\ front\ of\ the\ cursor\r\n\ \ it\ works\ opposite\ the\ way\ we\ would\ think\r\n
+comment1.params=theList\ ndx
+comment1.target=ArrayListIterator(List,\ int)
+comment1.text=\r\n\ this\ second\ constructor\ will\ initialize\ the\ list\ as\ the\ one\ above\ does,\ but\ also\ sets\ the\ starting\ \r\n\ position\ for\ the\ cursor\r\n
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment3.params=
+comment3.target=java.lang.Object\ next()
+comment4.params=
+comment4.target=boolean\ hasPrevious()
+comment5.params=
+comment5.target=java.lang.Object\ previous()
+comment6.params=
+comment6.target=void\ remove()
+comment7.params=value
+comment7.target=void\ add(java.lang.Object)
+comment7.text=\r\n\ easy-peasy.\ didnt\ need\ to\ update\ the\ size\ (as\ in\ RefListIterator)\ because\ thats\r\n\ already\ taken\ care\ of\ in\ the\ add()\ method\r\n
+numComments=8

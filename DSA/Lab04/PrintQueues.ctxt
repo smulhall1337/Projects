@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PrintQueues()
+comment1.params=
+comment1.target=void\ simulateOneStep()
+comment2.params=n
+comment2.target=void\ run(int)
+comment3.params=
+comment3.target=void\ runLong()
+numComments=4

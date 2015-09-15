@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=str
+comment0.target=boolean\ isPalindrome(java.lang.String)
+comment0.text=@return\ true\ only\ if\ str\ is\ a\ palindrome
+numComments=1

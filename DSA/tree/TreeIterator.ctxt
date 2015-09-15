@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=tree
+comment0.target=TreeIterator(BinaryTree)
+comment1.params=tree
+comment1.target=void\ buildQ(BinaryTree)
+comment1.text=\r\n\ for\ lab\ 8,\ We're\ iterating\ in\ PREorder\r\n\ so\ it\ will\ be\r\n\ [m,\ d,\ b,\ g,\ s]\r\n\ i\ think...\r\n
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment3.params=
+comment3.target=java.lang.Object\ next()
+comment4.params=
+comment4.target=void\ remove()
+comment4.text=\r\n\ removes\ from\ the\ tree\ the\ last\ element\ returned\ from\ next.\ BUT\ we\ have\ to\ remove\ it\ from\ the\ tree\r\n\ while\ still\ retaining\ the\ properties\ of\ a\ BST\r\n\ \r\n\ but\ what\ if\ we\ remove\ the\ element\ at\ the\ root??\ then\ what?\r\n\ \r\n
+comment5.params=
+comment5.target=void\ remove2()
+comment6.params=
+comment6.target=boolean\ hasTwoMore()
+numComments=7

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ hasPrevious()
+comment0.text=List\ iterator\ operates\ with\ a\ cursor\ that\ sits\ between\ elements\r\n\ so\ we\ can\ have\:\r\n\ a\ b\ c\ d\r\n\ \ ^\ ^\ ^\r\n
+comment1.params=
+comment1.target=java.lang.Object\ previous()
+comment1.text=\r\n\ returns\ the\ previous\ element\r\n
+comment2.params=
+comment2.target=void\ remove()
+comment2.text=\r\n\ removes\ the\ lasdt\ element\ returnedby\ next()\ or\ previous()\r\n
+comment3.params=value
+comment3.target=void\ add(java.lang.Object)
+comment3.text=\ Add\ the\ given\ value\ at\ the\ cursor\ position\ in\ the\ List\ \r\n\ being\ iterated\ through.\ A\ subsequent\ call\ to\ next(\ )\ would\ be\ unaffected,\ \r\nand\ a\ subsequent\ call\ to\ previous(\ )\ would\ return\ the\ new\ element.
+numComments=4

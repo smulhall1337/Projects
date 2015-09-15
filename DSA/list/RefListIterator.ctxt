@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=theList
+comment0.target=RefListIterator(LinkedList)
+comment1.params=theList\ ndx
+comment1.target=RefListIterator(LinkedList,\ int)
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment3.params=
+comment3.target=boolean\ hasPrevious()
+comment4.params=
+comment4.target=java.lang.Object\ next()
+comment4.text=\r\n\ next()\ and\ previous()\ are\ both\ dependant\ on\ hasnext()\ and\ hasprevious()\ being\ true,\ respectively.\r\n
+comment5.params=
+comment5.target=java.lang.Object\ previous()
+comment6.params=
+comment6.target=void\ remove()
+comment6.text=\r\n\ remove\ will\ ALWAYS\ remove\ the\ node\ that\ cursor\ is\ refering\ to,\ regardless\ of\ whether\ we're\ moving\ forward\ or\ backwards.\r\n\ the\ tricky\ part\ is\ moving\ the\ cursor\ AFTER\ we\ remove\ the\ node;\ which\ way\ should\ we\ move?\r\n\ since\ the\ remove\ method\ in\ the\ super\ class\ moves\ the\ node\ to\ whatever.previous,\ we\ need\ to\ change\ it\ if\ we're\ already\ moving\ backwards,\ hence\r\n\ the\ cursor\ \=\ cursor.next\ below.\r\n\ \r\n
+comment7.params=value
+comment7.target=void\ add(java.lang.Object)
+comment7.text=\r\n\ this\ was\ even\ trickier\ than\ remove\!\ basically\ its\ almost\ the\ same\ as\ the\ add\r\n\ but\ you\ have\ to\ take\ a\ couple\ of\ things\ into\ consideration,\ mainly;\ are\ you\ moving\ forward\r\n\ or\ backwards?\ if\ forward,\ youre\ inserting\ the\ element\ AFTER\ the\ node\ that\ the\ cursor\ is\ sitting\r\n\ on.\ if\ backwards,\ it\ goes\ BEFORE\ the\ node\ where\ cursor\ is\ at.\ basically,\ this\ method\r\n\ will\ set\ the\ cursor\ so\ that\ Previous()\ will\ return\ the\ new\ node\ that\ we\ just\ added\r\n\ where\ as\ next()\ would\ remain\ unchainged.\r\n\ \r\n
+numComments=8

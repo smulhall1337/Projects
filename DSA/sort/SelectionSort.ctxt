@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=values
+comment0.target=SelectionSort(list.List)
+comment0.text=\r\n\ constructor\r\n
+comment1.params=
+comment1.target=void\ sort()
+comment1.text=\r\n\ arrange\ the\ values\ in\ the\ given\ list\ from\ smallest\ to\ largest\r\n\ uses\ compareTo\ from\ javas\ Comparable\ class\r\n\ \r\n\ compareTo(E\ other)\r\n\ {\r\n\ \ \ \ \ if\ this\ <\ other,\ returns\ a\ negative\ number\r\n\ \ \ \ \ if\ this\ \=\ other,\ returns\ 0\r\n\ \ \ \ \ if\ this\ >\ other,\ returns\ a\ positive\ number\r\n\ \ \ \ \ }\r\n\ \ \ \ \ can\ be\ applied\ to\ any\ class\ that\ implements\ the\ interface\ Comparable.\r\n\ \ \ \ \ \r\n\ \ \ \ \ @pre\ E\ implements\ comparable\r\n
+comment2.params=start
+comment2.target=int\ posSmallest(int)
+comment2.text=\r\n\ return\ position\ of\ the\ smallest\ value\ begginning\ at\ a\ given\ start\ position\r\n\ @retun\ the\ POSITION\ of\ the\ smallest\ value\r\n
+comment3.params=x\ y
+comment3.target=void\ swap(int,\ int)
+comment3.text=\r\n\ swaps\ the\ given\ positions\ in\ the\ list\r\n\ \r\n
+numComments=4

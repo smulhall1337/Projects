@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=col\ b
+comment1.target=Board\ placeQueens(int,\ Board)
+comment1.text=\r\n\ @return\ a\ board\ where\ all\ queens\ are\ safely\ placed(if\ possible)\r\n\ or\ null\ if\ not\ possible\r\n\ @pre\ Queens\ have\ been\ safely\ placed\ on\ the\ given\ Board\ board\ in\ cols\ 0...col-1\r\n
+numComments=2

@@ -1,0 +1,70 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01
+-d
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+Lab01
+-windowtitle
+Lab01
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/6/docs/api/
+queue
+sort
+sort.sortDriver
+hash
+set
+list
+listDriver
+tree
+queens
+map
+stack
+Lab04
+recursion
+airline
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/DriverFall14.java
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/Fibonacci.java
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/Quiz1.java
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/Quiz3.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/DriverFall14.java...
+Loading source file C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/Fibonacci.java...
+C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01\Fibonacci.java:1: error: <identifier> expected
+import list.
+            ^
+Loading source file C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/Quiz1.java...
+Loading source file C:\Users\seanmulhall\Google Drive\java\Java\Lab01\Lab01/Quiz3.java...
+Loading source files for package queue...
+Loading source files for package sort...
+Loading source files for package sort.sortDriver...
+Loading source files for package hash...
+Loading source files for package set...
+Loading source files for package list...
+Loading source files for package listDriver...
+Loading source files for package tree...
+Loading source files for package queens...
+Loading source files for package map...
+Loading source files for package stack...
+Loading source files for package Lab04...
+Loading source files for package recursion...
+Loading source files for package airline...
+1 error

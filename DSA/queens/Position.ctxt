@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=r\ c
+comment0.target=Position(int,\ int)
+comment1.params=object
+comment1.target=boolean\ equals(java.lang.Object)
+comment2.params=p
+comment2.target=boolean\ isAttacking(Position)
+comment2.text=\r\n\ return\ ture\ if\ the\ given\ position\ is\ attacking\ this\ position\r\n
+comment3.params=p
+comment3.target=boolean\ sameCol(Position)
+comment4.params=p
+comment4.target=boolean\ sameRow(Position)
+comment5.params=p
+comment5.target=boolean\ sameMinDiag(Position)
+comment5.text=\r\n\ a\ minor\ diagonal(or\ any\ diagonal)\ is\ a\ combination\ of\ row\ and\ column\r\n\ except\ minor\ diagonal\ goes\ "down"\ the\ grid\ from\ left\ to\ right\r\n\ diagonal\ would\ be\r\n\ (r,c)\r\n\ (0,1)\r\n\ (1,2)\r\n\ (2,3)\r\n\ etc...\r\n\ if\ a\ position\ occupies\ the\ same\ minor\ diagonal,\ subtracting\ the\ two\ positions\ will\ yield\ the\ same\ result\r\n
+comment6.params=p
+comment6.target=boolean\ sameMajDiag(Position)
+comment6.text=\r\n\ same\ as\ above,\ but\ going\ up\ the\ grid\ from\ left\ to\ right\ and\ adding\ \r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

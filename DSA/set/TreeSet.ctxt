@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=boolean\ add(java.lang.Comparable)
+comment1.params=object
+comment1.target=boolean\ contains(java.lang.Object)
+comment2.params=object
+comment2.target=boolean\ remove(java.lang.Object)
+comment3.params=
+comment3.target=list.Iterator\ iterator()
+comment4.params=
+comment4.target=int\ size()
+comment5.params=
+comment5.target=void\ clear()
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=obj
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=otherSet
+comment9.target=boolean\ addAll(Set)
+numComments=10

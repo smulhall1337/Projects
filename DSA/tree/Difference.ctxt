@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=left\ right
+comment0.target=Difference(Expr,\ Expr)
+comment1.params=
+comment1.target=int\ eval()
+comment2.params=
+comment2.target=Expr\ simplify()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+numComments=5
