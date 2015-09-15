@@ -4,8 +4,8 @@ import set.*;
 /**
  * Store the entries of a map using a BinarySearchTree
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Sean Mulhall) 
+ * 
  */
 public class TreeMap<K,V>
 implements Map<K,V>
