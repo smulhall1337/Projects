@@ -2,7 +2,7 @@ package list;
 
 
 /**
- * an iterator that works with ArrayLists
+ * an iterator that works with Arrays
  * 
  * @author Sean Mulhall
  * @version 9.17.14
