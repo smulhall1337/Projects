@@ -40,7 +40,7 @@ implements Iterator <E>
     }
     
     public boolean hasTwoMore()
-    {
+    {//used for a lab, pretty useless 
         if (ndx < theList.size()-2)
         {
             return true;
@@ -51,6 +51,7 @@ implements Iterator <E>
     
     public void remove2()
     {
+        //used for a lab that we ended up not doing 
     }
     
 }
