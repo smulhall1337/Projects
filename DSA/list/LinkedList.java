@@ -44,6 +44,9 @@ implements List <E>
         size++;
     }
 
+    /**
+     * used to set a reference node. basically used to reduce code duplication
+     */
     private void setRef(int ndx)
     {
         if (ndx < size/2)
@@ -160,7 +163,7 @@ implements List <E>
         Node temp2 = otherList.head.next;//this temporary node eliminated the need for the get method. this whole method works like an iterator
         for (int i=0;i<size-1;i++)       //where the temporary node "remembers" where it is in our linked list. this meant the computer didn't have to return to the first element
         {                                //in our list as it did with the set() (and getRef() through that) 
-            if (!(temp.value.equals(temp2.value)))//note to self: see if theres a way to do this without the  get
+            if (!(temp.value.equals(temp2.value)))     //note to self: see if theres a way to do this without the  get
             {                                          // it seems to be bottlenecking here but im not sure if its 
                 return false;                          //because of the setRef method
             }                                          
