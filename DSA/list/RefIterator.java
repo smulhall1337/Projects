@@ -20,7 +20,8 @@ implements Iterator <E>
 
     RefIterator()
     {
-    }//should not be called
+    //should not be called
+    }
 
     public boolean hasNext()
     {
@@ -55,6 +56,7 @@ implements Iterator <E>
      *  next() and the element following that.
      *  Pre: There are two such elements which 
      *  can be removed.
+     * (used for a lab)
      */
     public void remove2()
     {
