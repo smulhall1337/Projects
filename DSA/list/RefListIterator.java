@@ -1,10 +1,10 @@
 package list;
 
 /**
- * Write a description of class RefListIterator here.
+ * a reference list iterator
  * 
  * @author SEan Mulhall
- * @version (a version number or a date)
+ * @version (2015)
  */
 public class RefListIterator<E>
 extends RefIterator<E>
