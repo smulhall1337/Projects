@@ -1,6 +1,6 @@
 
 /**
- * Create a basic Linked List Class
+ * Create a basic Linked List object
  * 
  * @author Sean Mulhall
  * @version 9.10.2014
@@ -12,7 +12,7 @@ implements List <E>
     int size = 0;
     Node <E> head = new Node <E> (null, null, null); //our dummy head
     Node <E> tail = new Node <E> (null, null, head);//and dummy tail
-    private Node <E> ref;//handy reference node
+    private Node <E> ref;//handy dandy reference node
 
     /**initializes the linked list*/
     public LinkedList()
