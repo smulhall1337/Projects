@@ -2,10 +2,10 @@ package list;
 
 
 /**
- * Write a description of class ArrayListIterator here.
+ * An iterator for ArrayLists
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Sean Mulhall) 
+ * @version (2014)
  */
 public class ArrayListIterator<E>
 extends ArrayIterator<E>
