@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=a\ b
-comment0.target=int\ mod(int,\ int)
-comment0.text=\ \r\n\ \ \ \ @return\ the\ remainder\ of\ a/b\ \ \ \ \r\n\r\n\ \ \ \ @param\ a\ and\ b\ are\ positive\r\n\r\n
-numComments=1
