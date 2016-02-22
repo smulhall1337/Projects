@@ -1,5 +1,5 @@
-
-
+# a program that represents a bank teller. Users input their account number
+# and give a command to either deposit or withdraw funds.
 
 	.data
 ar1: .word 205, 212, 200, 203, 201, 231, 209, 207, 211, 250
@@ -46,16 +46,16 @@ acctfor:slti $t2, $t1, 10
 		
 erracct:addi    $v0, $zero, 4           # print error for account not found
         la      $a0, str4
-		j main							#back to top
+		j main					#back to top
 
 
 type:	addi    $v0, $zero, 4           # print string for transaction type
         la      $a0, str2
         syscall
 		
-		addi $v0, $zero, 5 				#read type
+		addi $v0, $zero, 5 		#read type
 		syscall
-		add $a2, $zero, $v0				#use $v0 instead of a2, since theyre equal(nevermind, we use the operation later in code
+		add $a2, $zero, $v0		#use $v0 instead of a2, since theyre equal(nevermind, we use the operation later in code
 		addi $t4, $zero, 1
 		beq $a2, $zero, amount
 		beq $a2, $t4, amount
