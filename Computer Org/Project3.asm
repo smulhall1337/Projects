@@ -1,3 +1,6 @@
+# program that takes transforms strings by swapping the upper and lowercase characters 
+# for whatever the user specifies 
+
 .data
 buffer: .byte 0:200
 upper:	.byte 0:26
