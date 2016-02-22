@@ -2,10 +2,10 @@ package tree;
 
 
 /**
- * defines a constant(an integer)
+ * defines a constant(an integer). used with the assignment class
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Sean Mulhall) 
+ * @version (Fall 2014)
  */
 public class Constant
 implements Expr
