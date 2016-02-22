@@ -1,3 +1,5 @@
+# converts hexidecimal values to their corosponding octal values 
+
 .data
 hex: 	.byte 0:200 #hex buffer
 str1: 	.asciiz	"Enter in a Hexadecimal value\n"
