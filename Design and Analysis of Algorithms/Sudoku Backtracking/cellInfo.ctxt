@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=row\ col\ dim
+comment0.target=cellInfo(int,\ int,\ int)
+numComments=1
