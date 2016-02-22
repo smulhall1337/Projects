@@ -1,9 +1,9 @@
 import list.
 /**
- * Write a description of class Fibonacci here.
+ * a fibonachi generator. it was fun seeing how hot this could make my laptop
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Sean Mulhall
+ * 
  */
 public class Fibonacci
 {
