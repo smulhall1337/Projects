@@ -2,15 +2,15 @@ package tree;
 import list.Iterator;
 
 /**
- * Write a description of class EmptyIterator here.
+ * Iterates over an empty binary search tree. used as to make the compiler happy
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Sean Mulhall) 
+ * @version (Fall 2014)
  */
 public class EmptyIterator<E>
 implements Iterator<E>
 {
-    //this is easy
+    //2ez
     public boolean hasNext()
     {
         return false;
