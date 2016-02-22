@@ -2,7 +2,7 @@ package tree;
 import list.*;
 /**
  * A BinaryTree that stores nothing
- * ??
+ * ...??
  * 
  * @author (Sean Mulhall) 
  * @version (10.21.2014)
