@@ -1,7 +1,7 @@
 package tree;
 
 /**
- * Write a description of class Difference here.
+ * Represents a subtraction operation 
  * 
  * @author (Sean Mulhall) 
  * @version (11.5.2014)
