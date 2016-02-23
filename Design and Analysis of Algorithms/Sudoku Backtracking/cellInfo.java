@@ -1,6 +1,6 @@
 import java.util.*;
 /**
- * represents a blank cell
+ * represents a blank cell. A blank cell holds its list of possible entries 
  * 
  * @author Sean Mulhall & Dyona Tate
  * @version Fall 2015
