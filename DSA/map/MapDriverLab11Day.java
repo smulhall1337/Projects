@@ -7,8 +7,10 @@ import sort.Student;
 
 /**
  * Test the HashMap
+ * Kept this here because it was a particularly tricky problem that I like 
+ * to refrence from time to time. 
  * 
- * @author (sdb) 
+ * @author (Sean Mulhall) 
  * @version (Mar 2012)
  */
 public class MapDriverLab11Day
@@ -56,8 +58,10 @@ public class MapDriverLab11Day
     {
         //this was tricky
         //since its private, I cou;dn't really use anythign from the Entry 
-        //class, or reference generic types
-        //but thanks to the keySet() method in HashMap, it made things simple
+        //class, or reference generic types. 
+        //this was due to the nature of the lab. In reality I could just set it to public but that was deemed incorrect 
+        //according to our professor. 
+        //However, thanks to the keySet() method in HashMap, it made things simple
         if (! (map.size() == 0))
         {
             double avg = 0;
@@ -75,7 +79,7 @@ public class MapDriverLab11Day
                 //I could change it, but then I'd forget what I did
             }
             avg = total/map.size();
-            return avg;
+            return avg;//BOOM!
         }
         return 0;//if theres no elements in our map, average is zero
 
