@@ -9,10 +9,10 @@ import java.util.*;//ArrayLists and HashSet
 import java.lang.Math;
 
 /**
- * The test class GameTest.
+ * Junit test for our backtracking solver
  *
- * @author  (your name)
- * @version (a version number or a date)
+ * @author  Sean Mulhall & Dyona Tate
+ * @version (fall 2015)
  */
 public class GameTest
 {
