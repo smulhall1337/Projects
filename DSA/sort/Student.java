@@ -2,7 +2,7 @@ package sort;
 
 /**
  * Represents a Student object. Students have a name(String), a SSN(String), and a GPA(float)
- * 
+ * used for a lab
  * @author (Sean Mulhall) 
  * @version (10.8.2014)
  */
