@@ -1,8 +1,10 @@
 package recursion;
 import java.util.*;
 
-/** Maintain email addresses, with aliases.
- * @author (sdb)
+/** 
+ * Maintain email addresses, with aliases.
+ *This was primarily to test the functionality of maps
+ * 
  * @author (Sean Mulhall)
  */
 public class EmailAddresses
