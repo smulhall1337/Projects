@@ -5,7 +5,7 @@ import queue.*;
 /**
  * A Printer has a speed, in blocks of printing per step, and a queue of Docs to be printed
  * 
- * @author (sdb)
+ * 
  * @author (Sean Mulhall)
  */
 public class Printer
