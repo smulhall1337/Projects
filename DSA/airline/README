@@ -1,0 +1,3 @@
+The airport lab was a take on the "Traveling Salesman" Problem. 
+A plane can fly to an adjacent airport in one go, but connecting flights must be made if the plane is to fly more than 
+one airport away. This program would find the shortest path. Origin and destination airports could be set by the user.
