@@ -3,10 +3,11 @@ import java.io.*;
 import java.util.*;//ArrayLists and HashSet
 import java.lang.Math;
 /**
- * Write a description of class Scanner here.
+ * Solver basically takes in the boards as command line arguments and passes all the work
+ * to game. IT contains all the checks to make sure the board is valid as well as handle a few exceptions 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Sean Mulhall & Dyona Tate 
+ * @version fall 2015
  */
 public class Solver
 {
