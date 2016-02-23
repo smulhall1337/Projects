@@ -2,8 +2,8 @@ import java.util.*;
 /**
  * represents a blank cell
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Sean Mulhall & Dyona Tate
+ * @version Fall 2015
  */
 public class cellInfo
 {
