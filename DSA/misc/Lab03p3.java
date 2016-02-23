@@ -5,8 +5,8 @@ import java.util.Scanner;
  * Evaluate postfix expressions
  * Assume that numbers and operators are separated by one space.
  * Assume that the expressions are well-formed.
- * @author (sdb and Sean Mulhall)
- * @version (Sep 2014)
+ * @author (Sean Mulhall)
+ * @version (fall 2014)
  */
 public class Lab03p3
 {
