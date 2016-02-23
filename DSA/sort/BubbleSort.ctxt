@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=list
-comment0.target=BubbleSort(list.List)
-comment1.params=
-comment1.target=void\ sort()
-comment2.params=x\ y
-comment2.target=void\ swap(int,\ int)
-numComments=3
