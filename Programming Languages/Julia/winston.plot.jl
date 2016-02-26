@@ -1,3 +1,6 @@
+#tested the functionality of the Winston package in julia
+#basically just plots a graph with given input
+
 Pkg.add("Winston")
 
 Pkg.add("ImplicitEquations")
