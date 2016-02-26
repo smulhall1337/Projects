@@ -1,3 +1,7 @@
+#this package creates fake jobs
+# we assign these fake jobs based on a questionare the user would complete
+#ultimately its useless since the jobs we're random everytime the function was called
+
 Pkg.add("Faker")
 
 using Faker
