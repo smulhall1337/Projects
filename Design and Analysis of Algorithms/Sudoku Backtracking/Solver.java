@@ -73,24 +73,21 @@ public class Solver
                     Game game = new Game(board, width, height, ctr);
                     game.createEmptyCells(ctr, rowArray, colArray);
                     // Attempt to Solve board and output appropriate answer
-                    if(game.Solve(0) == false)
-                    {
+                    if(game.Solve(0) == false) {
                         System.out.println("This board cannot be solved!");
                     }
 
-                    else 
-                    {
+                    else {
                         //Output completed board
                         System.out.println("\nBoard Solved!\n");
-                        for(int r = 0; r < (height*width); r++)
-                        {
-                            for(int c = 0; c < (width*height); c++)
-                            {
-                                if(r == ((width*height)-1) && c == ((width*height)-1) && game.emptyCells[ctr-1].row == r && game.emptyCells[ctr-1].col == c)
-                                {
+                        for(int r = 0; r < (height*width); r++){
+                            for(int c = 0; c < (width*height); c++){
+                                if(r == ((width*height)-1) && c == ((width*height)-1) && game.emptyCells[ctr-1].row == r && game.emptyCells[ctr-1].col == c){
                                     //some real dirty code to print out the last blank value
                                     //instead of a zero when the very last cell in the board is
-                                    //a zero
+                                    //a zero. I plan on fixing this in the future
+                                    //
+                                    //update 3/10/16: STILL plan on fixing this in the future. ughhh
                                     System.out.println(game.emptyCells[ctr-1].possVals.get(0)+ " ");
                                     break;
                                 }
