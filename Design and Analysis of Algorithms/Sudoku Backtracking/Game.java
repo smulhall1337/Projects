@@ -3,7 +3,18 @@ import java.io.*;
 import java.util.*;//ArrayLists and HashSet
 import java.lang.Math;
 /**
+ * Game handles all of the heavy lifting. Game takes the board passed from Solver,
+ * and stores the height, width, and the number of blank cells the board contains.
  * 
+ * From there, the game attempts to solve the puzzle by inspecting a blank cell, more specifically; 
+ * what is already contained in the blanks row, column, and box. From there. we can drastically reduce the
+ * number of possible combinations to try. Each blank is stored as a cellInfo object. The object stores
+ * the possible entries a blank could be. As we move through the board, if we get to a blank possibility that is 
+ * infeasible, and the algorithm "backtracks" to the last blank, we remove that possibility from the cellInfos 
+ * possible combinations.
+ * 
+ * the process repeats until a working solution is found, or the program finds no
+ * possible solution for the board. 
  * 
  * @author Sean Mulhall & Dyona Tate 
  * @version 10/21/2015
@@ -16,8 +27,7 @@ public class Game
     int [][] board;//the original unmodified board
     cellInfo [] emptyCells;//array of Empty Cells in this board
 
-    public Game(int[][] board, int width, int height, int count)
-    {
+    public Game(int[][] board, int width, int height, int count){
         //store all variaables
         this.board = board;
         this.width = width;
@@ -31,10 +41,8 @@ public class Game
         //blankCell in tempcells place, but to avoid al lthat work,
         //we would just reinitialize its possVals array
         //and then compare it with the new dimensions around the blank
-        if(tempCell.possVals.size() == 0)
-        {
-            for(int i = 1; i <= width*height; i++)
-            {
+        if(tempCell.possVals.size() == 0){
+            for(int i = 1; i <= width*height; i++){
                 tempCell.possVals.add(i);
             }
         }
@@ -51,7 +59,7 @@ public class Game
 
     //recursive backtracking solver
     public boolean Solve(int i) {
-        cellInfo tempCell = emptyCells[i];//pull out th next cell
+        cellInfo tempCell = emptyCells[i];//pull out the next cell
         setPossValues(tempCell);
         //base case: board is solved
         if(check()) {
@@ -81,9 +89,8 @@ public class Game
     }
 
     //Creates an array of Cell objects that stores info about the empty cells
-    public void createEmptyCells (int count, ArrayList<Integer> cellsRow, ArrayList<Integer> cellsCol) {
+    public void createEmptyCells (int count, ArrayList<Integer> cellsRow, ArrayList<Integer> cellsCol){
         emptyCells = new cellInfo [count]; //create an array of Cell objects
-
         for(int i = 0; i < count; i++) {
             emptyCells[i] = new cellInfo(cellsRow.get(i), cellsCol.get(i), width*height);
             //emptyCells[i].setValue(board[cellsRow.get(i)][cellsCol.get(i)]);
@@ -99,18 +106,15 @@ public class Game
     public boolean check()
     {
         //check columns for duplicates (moving over and down)
-        if (!checkColumn())
-        {
+        if (!checkColumn()){
             return false;
         }
         //check rows
-        if (!checkRow())
-        {
+        if (!checkRow()){
             return false;
         }
         //check boxes
-        if (!checkBox(0))
-        {
+        if (!checkBox(0)){
             return false;
         }
         return true;
@@ -177,7 +181,10 @@ public class Game
     }//checkColumn()
 
     /**
-     * checks the box that the blank resides in
+     * checks the box that the blank resides in for values that are already present 
+     * 
+     * I'm gonna go extra heavy on the comments here just so I can remember how this works 
+     * in the future.....cause this was a major pain to figure out 
      */
     public void checkSingleBox(cellInfo tempCell){
         int x = tempCell.row % height;//how many cells to move up
@@ -212,5 +219,5 @@ public class Game
                 tempCell.possVals.remove(num);
             }
         }
-    }
-}//checkSingleCol
+    }//checkSingleCol
+}//game
