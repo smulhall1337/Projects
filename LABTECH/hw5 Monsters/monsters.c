@@ -1,7 +1,7 @@
 /* monsters.c - monster abilities and vulnerabilities.
  *
- * D Provine and a cast of dozens, 5 Feb 2013
- * Homework completed by Sean Mulhall
+ * 
+ * Sean Mulhall
  * Principles of digital computing
  * Fall 2016
  */
