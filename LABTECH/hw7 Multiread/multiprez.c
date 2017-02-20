@@ -1,6 +1,7 @@
 /* multiprez.c - Write Information About Multiple Presidents
  *
- * D Provine
+ * Sean Mulhall
+ * Fall 2016
  */
 
 #include <stdio.h>
