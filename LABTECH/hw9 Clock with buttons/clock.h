@@ -1,6 +1,8 @@
 /* clock.h -- header file for clock program
  *
- * Darren Provine, 17 July 2009
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <sys/time.h>
