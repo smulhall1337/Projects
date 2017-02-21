@@ -1,6 +1,7 @@
 /* multiprez.c - Write Information About Multiple Presidents
  *
  * Sean Mulhall
+ * Computer Lab Techniques
  * Fall 2016
  */
 
