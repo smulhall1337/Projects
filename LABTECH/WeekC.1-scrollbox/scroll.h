@@ -1,6 +1,8 @@
 /* scroll.h -- header for the scroll box
  *
- * Darren Provine, 17 Nov 2012
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <sys/time.h>
