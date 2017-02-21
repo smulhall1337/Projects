@@ -1,7 +1,9 @@
 /* MakeCharList.c - make a list of the characters we need
  *                  (character version)
  *
- * D Provine, 1 January 2014
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <stdio.h>
