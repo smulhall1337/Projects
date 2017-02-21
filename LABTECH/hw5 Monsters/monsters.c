@@ -2,7 +2,7 @@
  *
  * 
  * Sean Mulhall
- * Principles of digital computing
+ * Computer Lab Techniques
  * Fall 2016
  */
 
