@@ -1,6 +1,8 @@
 /* scroll.c -- scrolling display
  *
- * Darren Provine, 20 March 2012
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <time.h>
