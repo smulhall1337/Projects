@@ -1,8 +1,8 @@
 /* showchars.c - Show characters
  *
- * D Provine, 20 March 2012
- *
- * INCOMPLETE: Only shows one character!
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <stdio.h>
