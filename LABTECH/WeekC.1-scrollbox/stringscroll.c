@@ -1,6 +1,8 @@
 /* stringscroll.c - scroll a string
  *
- * D Provine and Posse, 9 April 2015
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <stdio.h>
