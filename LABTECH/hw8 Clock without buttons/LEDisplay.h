@@ -1,6 +1,8 @@
 /* LEDisplay.h -- header file for 7segment clock library file
  *
- * Darren Provine, 14 August 2009
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include <strings.h>
