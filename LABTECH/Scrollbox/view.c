@@ -1,9 +1,9 @@
  /* view.c -- display for scrolling box
  * 
- * Darren Provine, 20 March 2012
  *
- * Edited by Sean Mulhall 
- * Fall 2016 
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include "scroll.h"
