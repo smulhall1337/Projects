@@ -1,6 +1,8 @@
 /* model.c -- actual clock part of the clock project
  *
- * Darren Provine, 17 July 2009
+ * Sean Mulhall
+ * Computer Lab Techniques 
+ * Fall 2016
  */
 
 #include "clock.h"
