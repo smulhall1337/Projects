@@ -1,6 +1,8 @@
 /* model.c -- Data and Timing for the Scroll Box
  *
- * Darren Provine, 7 August 2011
+ * Sean Mulhall
+ * Computer Lab Techniques
+ * Fall 2016
  */
 
 #include "scroll.h"
