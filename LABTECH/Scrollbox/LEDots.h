@@ -1,6 +1,8 @@
 /* LEDots.h -- header file for dot matris clock library file
  *
- * Darren Provine, 14 March 2010
+ * Sean Mulhall
+ * Computer LAb Techniques
+ * Fall 2016
  */
 
 #include <string.h>
