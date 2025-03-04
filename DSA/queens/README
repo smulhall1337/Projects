@@ -1,4 +1,0 @@
-These files are a part of a project that was aimed at creating a solver for the 8 queens problem.
-
-You have an 8x8 chessboard, and 8 queens. The objective is to place the queens on the chessboard so that none
-can attack each other. We expanded this to an NxN chessboard that could be specified by a user.
