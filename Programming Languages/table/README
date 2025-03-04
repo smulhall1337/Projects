@@ -1,5 +1,0 @@
-This project was part of our "Common Code" project in PL. 
-We set up a table, filled with Diners
-The object was to place the diners at the table based on their common food choices
-Each dish was given a score, and depending on how it was ranked by the diner,
-we would alter the score by  using a modifier. This would allow diners with the same dish preference to be seated closly together
